@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+}
+
+group = 'ru.netology'
+version = '1.0-SNAPSHOT'
+
+sourceCompatibility = 11
+compliteJava.options.encoding = "UTF-8"
+compliteTestJava.options.encoding = "UTF -8"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+}
+
+test {
+}
